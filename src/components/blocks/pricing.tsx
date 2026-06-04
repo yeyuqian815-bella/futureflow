@@ -162,7 +162,6 @@ export function PricingBlock({
                           minimumFractionDigits: 0,
                           maximumFractionDigits: 0,
                         }}
-                        formatter={(value) => `$${value}`}
                         transformTiming={{
                           duration: 500,
                           easing: "ease-out",
